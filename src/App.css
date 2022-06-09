@@ -95,6 +95,9 @@
     top: -100%;
     transition: all 11s;
 }
+.footer-icons a{
+    font-size: 20px;
+}
 
 
 

@@ -19,14 +19,33 @@ const Contact = () => {
   };
     return (
         <div>
-            <div className="hero min-h-screen w-10/12 mx-auto">
-            <div className="hero-content flex-col md:flex-row">
-            <div className="text-center lg:text-left w-full md:w-1/2">
-                <h1 className="text-5xl font-bold">Login now!</h1>
-                <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            <div className="hero min-h-screen w-full md:w-10/12 mx-auto">
+            <div className="hero-content flex-col md:flex-row gap-10">
+            <div className="text-center md:text-left w-full md:min-w-1/2">
+                <h3 className="text-2xl md:text-3xl lg:text-5xl font-bold capitalize">get in touch</h3>
+                <p className="py-2 cl-title text-lg md:text-xl">Contact Me</p>
+                <div>
+                    <div class="card w-full md:w-96  text-primary-content py-10" style={{background: "var(--gray)"}}>
+                    <div class="card-body">
+                        <div>
+                            <h2 class="card-title">Address:</h2>
+                            <p>Cox's Bazar, Bangladesh</p>
+                        </div>
+                        <div>
+                            <h2 class="card-title">Phone:</h2>
+                            <a href="tel:+8801881220413">01881220413</a>
+                        </div> 
+                        <div>
+                            <h2 class="card-title">Email:</h2>
+                            <a href="mailto:arjurana20@gmail.com">arjurana20@gmail.com</a>
+                        </div>
+                      
+                    </div>
+                    </div>
+                </div>
             </div>
-                <div className="card flex-shrink-0 w-full md:w-1/2 shadow-2xl ">
-                <form ref={form} onSubmit={sendEmail}>
+            <div className="card flex-shrink-0 w-full md:min-w-1/2 shadow-2xl ">
+                <form ref={form} onSubmit={sendEmail} >
                 <div className="card-body">
                     <div className="form-control">
                     <label className="label">
@@ -56,7 +75,7 @@ const Contact = () => {
                 
                 </div>
                 <div className="blur" style={{ background: "var(--purple)", top: "1rem", left: "8rem" }}>
-                    </div>
+                </div>
             </div>
             
             </div>
