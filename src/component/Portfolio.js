@@ -25,9 +25,7 @@ const Portfolio = () => {
                 }}
                 slidesPerView={1}
                 grabCurso={true}
-                className= 'portfolio-slider'
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
+               
                 >
                 <SwiperSlide><Project img="https://i.ibb.co/84SPsg0/bi-cycle-full-view.png" title="Bi-Cycle - Manufacturer website" des="This is Bi-Cycle - Manufacturer website where users can order products.This website contains two types of dashboards one user and another admin" tech1="#mongodb" tech2="#Expresjs"tech3="#Reactjs"tech4="#tailwindCss" live="https://bicycle-2a227.web.app/" code="https://github.com/rana-arju/bi-cycle-client" details="https://drive.google.com/file/d/1m7CpDhcNVPMsaDX2Q4WLum1F_JRn_SWf/view" /></SwiperSlide>
 

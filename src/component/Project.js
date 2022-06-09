@@ -2,8 +2,9 @@ import React from 'react';
 
 const Project = ({img, title, des,live,code,details, tech1, tech2, tech3,tech4}) => {
     return (
-        <div class="card w-full md:max-w-96 bg-base-100 shadow-xl">
-        <figure ><img src={img} alt={title} className='w-full h-auto'/></figure>
+        <div class="card w-full md:max-w-96 bg-base-100 shadow-xl mb-10 relative">
+            <div className='scroll-img'>
+        <figure className='w-full h-[250px]' ><img src={img} alt={title} /></figure></div>
         <div class="card-body">
             <h2 class="card-title">{title}</h2>
             <p>{des}</p>
