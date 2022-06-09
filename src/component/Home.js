@@ -1,9 +1,20 @@
 import React from 'react';
-import { FaBeer } from 'react-icons/fa';
+// import { FaBeer } from 'react-icons/fa';
+import Navbar from './Navbar';
+import Hero from './Hero';
+import About from './About';
+import Projects from './Projects';
+import Contact from './Contact';
+import Footer from './Footer';
 const Home = () => {
     return (
         <div>
-            
+            <Navbar />
+            <Hero />
+            <About />
+            <Projects />
+            <Contact />
+            <Footer />
         </div>
     );
 };
