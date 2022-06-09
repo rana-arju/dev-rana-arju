@@ -6,13 +6,15 @@ import About from './About';
 import Contact from './Contact';
 import Footer from './Footer';
 import Services from './Services';
+import Portfolio from './Portfolio';
 const Home = () => {
     return (
         <div>
             <Navbar />
             <Hero />
-            <Services />
             <About />
+            <Services />
+            <Portfolio />
             <Contact />
             <Footer />
         </div>

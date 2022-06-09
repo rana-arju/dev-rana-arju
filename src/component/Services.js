@@ -4,7 +4,7 @@ import Service from './service';
 const Services = () => {
     return (
         <div className='my-12' id='services'>
-            <div class="hero h-[400px] md:h-[550px]">
+        <div class="hero h-full">
             <div class="hero-content flex flex-col justify-around md:flex-row-reverse">
                 <div className='w-full md:w-3/5 gap-5 grid grid-cols-1 md:grid-cols-2 order-1 md:order-none'>
                     <Service img="https://i.ibb.co/YyvjH8X/wp-customizarion.jpg" title="WordPress Theme Customization"  />
