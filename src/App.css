@@ -1,7 +1,6 @@
 .cl-title{
     color: var(--orange);
 }
-
 .social-icons img{
     width: 40px;
     height: 40px;
@@ -76,4 +75,12 @@
   top: -18%;
   left: 56%;
   filter: blur(72px);
+}
+/* Responsive */
+@media only screen and (max-width: 768px) {
+    .social-icons img{
+    width: 30px;
+    height: 30px;
+  
+}
 }

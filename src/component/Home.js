@@ -3,16 +3,16 @@ import React from 'react';
 import Navbar from './Navbar';
 import Hero from './Hero';
 import About from './About';
-import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer';
+import Services from './Services';
 const Home = () => {
     return (
         <div>
             <Navbar />
             <Hero />
+            <Services />
             <About />
-            <Projects />
             <Contact />
             <Footer />
         </div>

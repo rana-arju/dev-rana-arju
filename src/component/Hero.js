@@ -13,7 +13,7 @@ import FloatingDiv from './FloatingDiv';
 const Hero = () => {
     return (
         <div>
-            <div class="hero h-[550px] ">
+            <div class="hero h-[400px] md:h-[550px] ">
             <div class="hero-content flex-col lg:flex-row-reverse items-start">
                 <div className='md:w-1/2 hero-right'>
                    <img src={Vector1} alt="" />
@@ -45,7 +45,7 @@ const Hero = () => {
                 </div>
                 
                 <div className='md:w-1/2 hero-left'>
-                    <h1 class="text-5xl font-bold">Hy! I'm <br /><span className='cl-title'>Rana Arju</span> </h1>
+                    <h1 class="text-2xl md:text-3xl lg:text-5xl font-bold">Hy! I'm <br /><span className='cl-title'>Rana Arju</span> </h1>
                     <p class="py-6 w-11/12">I'm a MERN Stack web developer and WordPress theme developer. I love being in this line of work Because I'm passionate about technology, design, and innovation. </p>
                     <a href="/contact" class="custome-btn uppercase">hire Me</a>
                     <div className="social-icons flex gap-5 mt-12">
