@@ -14,6 +14,7 @@ const Navbar = () => {
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#protfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
           <a href="/home" class=" normal-case sm:text-lg md:text-2xl font-bold">Rana Arju</a>
@@ -21,9 +22,10 @@ const Navbar = () => {
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0 nav-item">
             <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
             <li><a href="#protfolio">Portfolio</a></li>
+             <li><a href="#contact">Contact</a></li>
             
             
           </ul>

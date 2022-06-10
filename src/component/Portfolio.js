@@ -6,7 +6,7 @@ import 'swiper/css';
 import Project from './Project';
 const Portfolio = () => {
     return (
-        <div className='w-11/12 mx-auto'>
+        <div className='w-11/12 mx-auto' id='protfolio'>
             <div>
                 <h2 className='uppercase text-2xl md:text-3xl lg:text-5xl font-bold text-center my-10'>my recent <span className='cl-title'>Project</span></h2>
             </div>
