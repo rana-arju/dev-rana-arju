@@ -15,7 +15,7 @@ const Services = () => {
                 <div className='w-full md:w-2/5 hero-left mb-5'>
                     <h1 class="text-2xl md:text-3xl lg:text-5xl font-bold">My Awesome <br /><span className='cl-title'>Services</span> </h1>
                     <p class="py-6 w-11/12">I'm a MERN Stack web developer and WordPress theme developer. I love being in this line of work Because I'm passionate about technology, design, and innovation. </p>
-                    <a href="/contact" class="custome-btn uppercase">hire Me</a>
+                    <a href="#contact" class="custome-btn uppercase">hire Me</a>
                 
                 </div>
             </div>
