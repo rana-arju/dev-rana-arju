@@ -5,7 +5,7 @@ import Github from '../images/github.png';
 import Facebook from '../images/facebook.png';
 import Linkedin from '../images/linkedin.png';
 
-import rana1 from '../images/rana-arju.gif';
+import rana1 from '../images/rana arju.gif';
 
 const Hero = () => {
     return (
@@ -13,7 +13,7 @@ const Hero = () => {
             <div className="hero h-fit md:h-[550px] ">
             <div className="hero-content flex-col lg:flex-row-reverse items-start">
                 <div className='w-full md:w-1/2 hero-right'>
-                   <img src={rana1} alt="" />
+                   <img src="https://i.ibb.co/y6C3pd2/rana.gif" alt="" />
 
                 </div>
                 
