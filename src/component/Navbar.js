@@ -3,7 +3,7 @@ import '../App.css';
 const Navbar = () => {
     return (
         <div>
-        <nav class="navbar  md:w-11/12 mx-auto">
+        <nav class="navbar md:w-11/12 mx-auto">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">

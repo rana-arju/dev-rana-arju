@@ -21,12 +21,12 @@ const Contact = () => {
         <div>
             <div className="hero min-h-screen w-full md:w-10/12 mx-auto">
             <div className="hero-content flex-col md:flex-row gap-10">
-            <div className="text-center md:text-left w-full md:min-w-1/2">
+            <div className="text-center md:text-left w-80 md:min-w-1/2">
                 <h3 className="text-2xl md:text-3xl lg:text-5xl font-bold capitalize">get in touch</h3>
                 <p className="py-2 cl-title text-lg md:text-xl">Contact Me</p>
-                <div>
-                    <div class="card w-full md:w-96  text-primary-content py-10" style={{background: "var(--gray)"}}>
-                    <div class="card-body">
+               
+                <div class="card w-full md:max-w-96  text-primary-content py-10" style={{background: "var(--gray)"}}>
+                    <div class="card-body text-left">
                         <div>
                             <h2 class="card-title">Address:</h2>
                             <p>Cox's Bazar, Bangladesh</p>
@@ -42,7 +42,7 @@ const Contact = () => {
                       
                     </div>
                     </div>
-                </div>
+                
             </div>
             <div className="card flex-shrink-0 w-full md:min-w-1/2 shadow-2xl ">
                 <form ref={form} onSubmit={sendEmail} >
