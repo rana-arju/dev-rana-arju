@@ -30,36 +30,7 @@
   width: 500px;
   height: auto;
 }
-/* .hero-right>:nth-child(1){
-    transform: scale(1);
-    left: -15%;
-    top: -9%;
-} */
-/* .hero-right>:nth-child(2){
-    transform: scale(0.87);
-    left: -3rem;
-    top: -4.6%;
-}
-.hero-right>:nth-child(3){
-    transform: scale(1.1);
-    left: 14%;
-}
-.hero-right>:nth-child(4){
-    transform: scale(0.5);
-    left: -30%;
-    top: -19%;
-    border-radius: 50%;
-    padding: 0;
-}
-.floatingDiv{
-    box-shadow: var(--boxShadow);
-    border-radius: 17px;
-    padding: 0 28px 0 0;
-    height: 4.5rem;
-}
-.floatingDiv img{
-    transform: scale(0.5);
-} */
+
 
 .scroll-img {
   display: block;

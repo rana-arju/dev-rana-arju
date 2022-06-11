@@ -1,5 +1,5 @@
 import emailjs from '@emailjs/browser';
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import { toast } from 'react-toastify';
 
 const Contact = () => {
@@ -24,18 +24,18 @@ const Contact = () => {
                 <h3 className="text-2xl text-center md:text-left md:text-3xl lg:text-5xl font-bold capitalize ">get in touch</h3>
                 <p className="py-2 text-center md:text-left cl-title text-lg md:text-xl ">Contact Me</p>
                
-                <div class="card text-primary-content py-10" style={{background: "var(--gray)"}}>
-                    <div class="card-body text-left">
+                <div className="card text-primary-content py-10" style={{background: "var(--gray)"}}>
+                    <div className="card-body text-left">
                         <div>
-                            <h2 class="card-title">Address:</h2>
+                            <h2 className="card-title">Address:</h2>
                             <p>Cox's Bazar, Bangladesh</p>
                         </div>
                         <div>
-                            <h2 class="card-title">Phone:</h2>
+                            <h2 className="card-title">Phone:</h2>
                             <a href="tel:+8801881220413">01881220413</a>
                         </div> 
                         <div>
-                            <h2 class="card-title">Email:</h2>
+                            <h2 className="card-title">Email:</h2>
                             <a href="mailto:arjurana20@gmail.com">arjurana20@gmail.com</a>
                         </div>
                       

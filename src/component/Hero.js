@@ -9,7 +9,7 @@ import rana1 from '../images/rana arju.gif';
 
 const Hero = () => {
     return (
-        <div>
+        <div className="mt-8">
             <div className="hero h-fit md:h-[550px] ">
             <div className="hero-content flex-col lg:flex-row-reverse items-start">
                 <div className='w-full md:w-1/2 hero-right'>
